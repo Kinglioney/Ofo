@@ -10,12 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var panelView: UIView!
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        panelView.layer.cornerRadius = view.frame.size.width
+       
     }
-
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
