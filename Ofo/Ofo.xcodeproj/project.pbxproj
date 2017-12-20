@@ -14,6 +14,7 @@
 		DC0122851FEA9F34002C272A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC0122831FEA9F34002C272A /* LaunchScreen.storyboard */; };
 		DC0122901FEA9F35002C272A /* OfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC01228F1FEA9F35002C272A /* OfoTests.swift */; };
 		DC01229B1FEA9F35002C272A /* OfoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC01229A1FEA9F35002C272A /* OfoUITests.swift */; };
+		DC0122A91FEAA214002C272A /* UIViewLayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0122A81FEAA214002C272A /* UIViewLayerHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DC0122961FEA9F35002C272A /* OfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC01229A1FEA9F35002C272A /* OfoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfoUITests.swift; sourceTree = "<group>"; };
 		DC01229C1FEA9F35002C272A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC0122A81FEAA214002C272A /* UIViewLayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewLayerHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				DC01227A1FEA9F34002C272A /* AppDelegate.swift */,
 				DC01227C1FEA9F34002C272A /* ViewController.swift */,
+				DC0122A81FEAA214002C272A /* UIViewLayerHelper.swift */,
 				DC01227E1FEA9F34002C272A /* Main.storyboard */,
 				DC0122811FEA9F34002C272A /* Assets.xcassets */,
 				DC0122831FEA9F34002C272A /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC01227D1FEA9F34002C272A /* ViewController.swift in Sources */,
+				DC0122A91FEAA214002C272A /* UIViewLayerHelper.swift in Sources */,
 				DC01227B1FEA9F34002C272A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TX8X4G99PU;
 				INFOPLIST_FILE = Ofo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ofoswift.Ofo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TX8X4G99PU;
 				INFOPLIST_FILE = Ofo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ofoswift.Ofo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
