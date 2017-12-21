@@ -14,6 +14,18 @@ class HomeViewController: UIViewController {
     //面板展开状态
     var isPanelCollapsed = true
     
+    //滑动手势
+    @IBAction func drag(_ sender: UIPanGestureRecognizer) {
+        switch sender.state {
+        case .changed:
+            let translate = sender.translation(in: view)
+            if translate.y != 0 {
+                movePanelView()
+            }
+        default:
+            break
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
